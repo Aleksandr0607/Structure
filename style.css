@@ -67,9 +67,13 @@ li:nth-child(-n + 4) {
   /* padding-right: 0; */
 }
 .possition_container {
+  position: relative;
   width: 80%;
   border: 1px solid red;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
 }
 
 .a,
@@ -81,9 +85,13 @@ li:nth-child(-n + 4) {
 }
 .a {
   background-color: blue;
+  position: fixed;
+  top: 10%;
+  left: 50%;
 }
 .b {
   background-color: aqua;
+  /* z-index: 2; */
 }
 .c {
   background-color: brown;
