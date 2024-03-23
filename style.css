@@ -66,3 +66,29 @@ li:nth-child(-n + 4) {
   margin-right: 0;
   /* padding-right: 0; */
 }
+.possition_container {
+  width: 80%;
+  border: 1px solid red;
+  display: flex;
+}
+
+.a,
+.b,
+.c,
+.d {
+  width: calc(80% / 4);
+  height: 200px;
+}
+.a {
+  background-color: blue;
+}
+.b {
+  background-color: aqua;
+}
+.c {
+  background-color: brown;
+}
+
+.d {
+  background-color: blueviolet;
+}
