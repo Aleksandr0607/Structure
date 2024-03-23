@@ -26,6 +26,9 @@
   /* text-align: center; */
   margin-right: 20px;
 }
+.pagination_list li:not(:last-child) {
+  margin-right: 20px;
+}
 
 /* li:last-child {
   background-color: rgb(85, 186, 35);
@@ -40,9 +43,26 @@
   margin-right: 0;
 } */
 
-li:nth-child(2n) {
+/* li:nth-child(2n + 1) {
   background-color: rgb(85, 186, 35);
   border: 1px solid rgb(156, 23, 23);
   color: white;
   margin-right: 0;
+  padding-right: 0;
+} */
+
+/* li:nth-child(n + 4) {
+  background-color: rgb(85, 186, 35);
+  border: 1px solid rgb(156, 23, 23);
+  color: white;
+  margin-right: 0;
+  /* padding-right: 0; */
+/* } */
+
+li:nth-child(-n + 4) {
+  background-color: rgb(85, 186, 35);
+  border: 1px solid rgb(156, 23, 23);
+  color: white;
+  margin-right: 0;
+  /* padding-right: 0; */
 }
